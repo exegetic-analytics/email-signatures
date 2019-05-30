@@ -14,7 +14,7 @@ Ian Rogers,Senior Data Scientist,071 472 7478,ian
 Monde Sinxi,Data Scientist,066 294 4388,monde
 ", stringsAsFactors = FALSE)
   
-signature <- readLines("signature-template.html")
+signature <- readLines("template-signature.html")
 
 people %>%
   pwalk(function(name,title,cell,email) {
